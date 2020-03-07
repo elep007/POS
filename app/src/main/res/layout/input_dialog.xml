@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_dialog_layout_design_user_input"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/dialogTitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Change Price"
+        android:textSize="22dp"
+        android:textColor="@color/design_default_color_primary_dark"/>
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Enter new price"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/darker_gray"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/userInputDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:inputType="numberDecimal" />
+    <!--<TextView-->
+        <!--android:id="@+id/text122344"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:layout_marginLeft="2dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:layout_marginRight="2dp"-->
+        <!--android:layout_marginBottom="5dp"-->
+        <!--android:background="#B1B0B0" />-->
+</LinearLayout>
